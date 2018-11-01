@@ -1,11 +1,3 @@
-/**
- * PCS RTP Project
- * Copyright (C) 2013 QQting ^_<b
- * Wireless Mobile Networking Laboratory
- * National Tsing Hua University, Taiwan
- */
-
-
 import java.awt.GridLayout;
 import java.awt.Point;
 import java.awt.event.ActionListener;
