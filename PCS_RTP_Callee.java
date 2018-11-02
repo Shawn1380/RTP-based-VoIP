@@ -56,10 +56,10 @@ public class PCS_RTP_Callee implements RTPAppIntf {
 	
 	public void setAudioFormat() {
 		AudioFormat.Encoding encoding = AudioFormat.Encoding.PCM_SIGNED;
-        float rate = 8000.0f;
-        int channels = 1;
-        int sampleSize = 16;
-        boolean bigEndian = false;
+        	float rate = 8000.0f;
+        	int channels = 1;
+        	int sampleSize = 16;
+        	boolean bigEndian = false;
 		
 		format = new AudioFormat(encoding, rate, sampleSize, channels, (sampleSize / 8) * channels, rate, bigEndian);
 	}
